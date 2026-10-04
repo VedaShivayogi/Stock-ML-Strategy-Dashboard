@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import "tailwindcss";
+@config "../tailwind.config.js";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-appBg: #F4F5F7;
+  --color-cardBg: #FFFFFF;
+  --color-cardBorder: #E8EAEE;
+  --color-primaryText: #111827;
+  --color-secondaryText: #6B7280;
+}
+
+.dark {
+  --color-appBg: #0F1115;
+  --color-cardBg: #171A21;
+  --color-cardBorder: #2B2F36;
+  --color-primaryText: #F9FAFB;
+  --color-secondaryText: #9CA3AF;
+}
+
+body {
+  @apply bg-appBg text-primaryText font-inter antialiased transition-colors duration-200;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
