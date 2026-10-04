@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stock ML Strategy Dashboard
 
 A machine learning project that tries to answer a deceptively simple question:
@@ -140,3 +141,6 @@ python -m venv .venv
 pip install -r requirements.txt
 
 streamlit run dashboard/app.py
+=======
+# Stock-ML-Strategy-Dashboard
+>>>>>>> b13f44aa50a0704f34867721bb0efa148367303b
