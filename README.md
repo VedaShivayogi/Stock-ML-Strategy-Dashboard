@@ -1,4 +1,4 @@
-# Stock ML Strategy Dashboard
+# Stock ML Strategy Dashboard.
 
 A modern full-stack application for predicting stock price direction using Machine Learning (Random Forest, XGBoost, LightGBM, Ensemble), with comprehensive Risk Analysis (Monte Carlo) and Explainability (SHAP).
 
