@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from matplotlib.animation import FuncAnimation
+from matplotlib.animation import FuncAnimation 
 
 
 def wealth_curves(val_df, pred_returns, start_money=100):
