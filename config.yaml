@@ -1,4 +1,4 @@
-data:
+data :
   ticker: "SPY"
   years: 10
   end_date: "today"
